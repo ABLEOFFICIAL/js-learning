@@ -28,10 +28,18 @@
 
 
 // tenary operators
-let age = 12;
+// let age = 12;
 
-(age >= 18)?  console.log('you are eligible') : console.log('you are not eligible')
+// (age >= 18)?  console.log('you are eligible') : console.log('you are not eligible');
 
-age += 12;
+// age += 12;
 
-(age >= 18)?  console.log('you are eligible') : console.log('you are not eligible')
+// (age >= 18)?  console.log('you are eligible') : console.log('you are not eligible');
+
+// while loop
+let num = 5;
+
+while(num > 0){
+    console.log("The number "+ num +" is greater than 0");
+    num--;
+}
