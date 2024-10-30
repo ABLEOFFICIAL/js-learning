@@ -46,12 +46,26 @@
 
 // function for guessing a number = Math.floor(Math.random() * 10) + 1;
 
-let guessedNumber = Math.floor(Math.random() * 10) + 1;
-let userInput = 5;
+// let guessedNumber = Math.floor(Math.random() * 10) + 1;
+// let userInput = 5;
 
-console.log(guessedNumber);
-while(guessedNumber != userInput){
-    console.log('unable to guess the number');
-    guessedNumber = Math.floor(Math.random() * 10) + 1;
-    console.log(guessedNumber);
+// console.log(guessedNumber);
+// while(guessedNumber != userInput){
+//     console.log('unable to guess the number');
+//     guessedNumber = Math.floor(Math.random() * 10) + 1;
+//     console.log(guessedNumber);
+// }
+
+// do...while loop
+// let num = 4;
+
+// do{
+//     console.log('Ekwesi Joshua Chimeremeze')
+//     num--;
+// }while(num>5);
+
+// for loop
+// (initializatin; condition; increment;)
+for(i = 2; i < 12; i= i + 2){
+    console.log('hello');
 }
