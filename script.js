@@ -37,9 +37,21 @@
 // (age >= 18)?  console.log('you are eligible') : console.log('you are not eligible');
 
 // while loop
-let num = 5;
+// let num = 5;
 
-while(num > 0){
-    console.log("The number "+ num +" is greater than 0");
-    num--;
+// while(num > 0){
+//     console.log("The number "+ num +" is greater than 0");
+//     num--;
+// }
+
+// function for guessing a number = Math.floor(Math.random() * 10) + 1;
+
+let guessedNumber = Math.floor(Math.random() * 10) + 1;
+let userInput = 5;
+
+console.log(guessedNumber);
+while(guessedNumber != userInput){
+    console.log('unable to guess the number');
+    guessedNumber = Math.floor(Math.random() * 10) + 1;
+    console.log(guessedNumber);
 }
