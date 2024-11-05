@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* body {
+    background: url(images/photo-1730470316489-0379f25dfabb.avif);
+    width: 100%;
+    object-fit: cover;
+} */
+
+
+.headerText {
+    text-align: center;
+    margin: 2rem;
+    padding: 0.75rem;
+}
+
+.container {
+    width: 50%;
+    background-color: rgb(153, 155, 247);
+    margin: 0 auto;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.formHeader {
+    margin-bottom: 0.8rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+.input{
+    margin-bottom: 0.3rem;
+}
+
+input {
+    width: 95%;
+    height: 1.5rem;
+    border-radius: 5px;
+    border: none;
+
+}
+#submit {
+    margin: 1rem 0;
+    padding: 0.2rem;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
