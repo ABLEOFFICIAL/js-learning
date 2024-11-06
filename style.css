@@ -1,55 +1,62 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+body {
     font-family: sans-serif;
 }
-/* body {
-    background: url(images/photo-1730470316489-0379f25dfabb.avif);
-    width: 100%;
-    object-fit: cover;
-} */
 
-
-.headerText {
-    text-align: center;
-    margin: 2rem;
-    padding: 0.75rem;
+#header {
+    background-color: rgb(3, 112, 3);
+    color: #fff;
 }
 
 .container {
-    width: 50%;
-    background-color: rgb(153, 155, 247);
-    margin: 0 auto;
-    padding: 1.5rem;
-    border-radius: 10px;
+    max-width: 800px;
+    margin-inline: auto;
 }
 
-.formHeader {
-    margin-bottom: 0.8rem;
+.logo {
+    padding: 1.5rem 0;
 }
 
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-.input{
-    margin-bottom: 0.3rem;
-}
-
-input {
-    width: 95%;
-    height: 1.5rem;
-    border-radius: 5px;
-    border: none;
-
-}
-#submit {
+#section1 {
     margin: 1rem 0;
-    padding: 0.2rem;
-    background-color: #000000;
+}
+
+#section1 .container {
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+li {
+    list-style: none;
+}
+form {
+    margin-bottom: 7px;
+}
+
+#text {
+    height: 2rem;
+    width: 40%;
+}
+
+#submit {
+    height: 2rem;
+    width: 10%;
+    background-color: black;
     color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+} 
+
+.items {
+    padding: .8rem;
+    border: 1px solid black;
+
+}
+
+.listItems :not(:first-child){
+    border-top: none;
+
 }
