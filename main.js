@@ -1,7 +1,10 @@
-var header = document.querySelector('.logo');
-header.textContent = 'hello';
-var nameInput = document.querySelector('#text');
-nameInput.value = 'josh';
-var list = document.querySelector('.items');
-list.style.backgroundColor = 'yellow';
-// console.log(header);
+var newDiv = document.createElement('div');
+newDiv.className = 'itemListing';
+
+var divText = document.createTextNode('hello worlld')
+newDiv.appendChild(divText);
+var container = document.querySelector('.container');
+var add = document.querySelector('.add')
+
+
+console.log(newDiv);
