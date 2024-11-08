@@ -18,6 +18,21 @@ body {
     margin-inline: auto;
 }
 
+#header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#seacrchInput {
+    bottom: none;
+    border-radius: 3px;
+    outline: none;
+    padding: .6rem;
+    width: 50%;
+}
+
 .logo {
     padding: 1.5rem 0;
 }
@@ -31,8 +46,17 @@ body {
     padding: 1rem;
 }
 
+.card {
+    display: flex;
+    padding: .8rem;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+}
+
 li {
     list-style: none;
+    /* display: inline-block; */
 }
 form {
     margin-bottom: 7px;
@@ -50,13 +74,16 @@ form {
     color: #fff;
 } 
 
-.items {
-    padding: .8rem;
-    border: 1px solid black;
-
-}
-
 .listItems :not(:first-child){
     border-top: none;
 
+}
+
+.btn {
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
 }
