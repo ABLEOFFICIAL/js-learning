@@ -1,8 +1,8 @@
-var form = document.getElementById('fornControl');
+var form = document.getElementById('formControl');
 var listItems = document.getElementById('listItems');
 
-
 form.addEventListener('submit', addListItem);
+listItems.addEventListener('click', removeitem);
 
 function addListItem(e) {
     e.preventDefault();
@@ -35,7 +35,18 @@ function addListItem(e) {
     console.log(delbtn);
 
     console.log(newItem);
+    document.getElementById('text').value = '';
 
 
 }
-// console.log(form);
+
+function removeitem(e) {
+    e.preventDefault();
+
+    if(e.target.classList.contains('btn')){
+        if(confirm('Are You sure?')){
+            var item = e.target.parentElement;
+            listItems.removeChild(item);
+        }
+    }
+}
