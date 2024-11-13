@@ -1,8 +1,12 @@
 var form = document.getElementById('formControl');
 var listItems = document.getElementById('listItems');
 
+var seacrchInput = document.getElementById('searchInput');
+
 form.addEventListener('submit', addListItem);
 listItems.addEventListener('click', removeitem);
+
+seacrchInput.addEventListener('keyup', searchItems);
 
 function addListItem(e) {
     e.preventDefault();

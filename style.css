@@ -26,7 +26,7 @@ body {
 }
 
 #seacrchInput {
-    bottom: none;
+    border: none;
     border-radius: 3px;
     outline: none;
     padding: .6rem;
